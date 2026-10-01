@@ -12,7 +12,7 @@
 
 import { useEffect } from 'react';
 import { View } from 'react-native';
-import { Stack, useRouter, useSegments } from 'expo-router';
+import { Stack, useRouter, useSegments, type Href } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { useFonts } from 'expo-font';
@@ -39,7 +39,7 @@ export default function RootLayout() {
 }
 
 /** Where each gate sends the user. */
-const ROUTE_FOR_GATE: Record<Exclude<Gate, 'loading' | 'ready'>, string> = {
+const ROUTE_FOR_GATE: Record<Exclude<Gate, 'loading' | 'ready'>, Href> = {
   signed_out: '/welcome',
   age_check: '/age-check',
   guardian: '/guardian',
@@ -81,7 +81,7 @@ function Shell() {
     const target = ROUTE_FOR_GATE[gate];
     // Sign-in and sign-up are both valid places to be while signed out.
     if (gate === 'signed_out' && ['welcome', 'sign-in', 'sign-up'].includes(current)) return;
-    if (target && `/${current}` !== target) router.replace(target);
+    if (target && `/${current}` !== (target as string)) router.replace(target);
   }, [bootReady, gate, segments, router]);
 
   if (!bootReady) {
@@ -90,7 +90,7 @@ function Shell() {
 
   return (
     <>
-      <StatusBar style={t.isDark ? 'light' : 'dark'} backgroundColor={t.canvas} />
+      <StatusBar style={t.isDark ? 'light' : 'dark'} />
       <Stack
         screenOptions={{
           headerShown: false,

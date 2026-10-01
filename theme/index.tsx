@@ -72,6 +72,7 @@ type RoleName = 'positive' | 'growth' | 'critical' | 'caution' | 'highlight' | '
 
 type AccentTokens = (typeof THEME_TOKENS)['modes']['light']['accent']['green'];
 type ModeTokens = (typeof THEME_TOKENS)['modes']['light'];
+type BrandGradientTokens = (typeof THEME_TOKENS)['modes']['light']['brandGradient'];
 
 export interface Theme {
   mode: TokenMode;
@@ -96,6 +97,8 @@ export interface Theme {
 
   accent: Record<AccentName, AccentTokens>;
   role: Record<RoleName, AccentTokens>;
+  /** Decorative only — never carries text. See components/magi/BrandGradient. */
+  brandGradient: BrandGradientTokens;
 
   space: typeof SPACE;
   radius: typeof RADIUS;
@@ -109,6 +112,13 @@ export interface Theme {
   plainBackgrounds: boolean;
 
   fontFamily: string | undefined;
+  /**
+   * The family to use at a given weight. One family today, because the three built-in
+   * choices each carry their own weights; the brand faces will need a real per-weight
+   * lookup here, which is why call sites already ask through this rather than reading
+   * `fontFamily` directly.
+   */
+  fontFamilyFor: (weight?: 'regular' | 'medium' | 'semibold' | 'bold') => string | undefined;
   /** Resolved text style for a role, already scaled by the user's preferences. */
   type: (role: TypeRole, weight?: 'regular' | 'medium' | 'semibold' | 'bold') => ResolvedTypeStyle;
   lineSpacingMultiplier: number;
@@ -239,6 +249,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
 
       accent: m.accent as unknown as Record<AccentName, AccentTokens>,
       role: m.role as unknown as Record<RoleName, AccentTokens>,
+      brandGradient: m.brandGradient,
 
       space: SPACE,
       radius: RADIUS,
@@ -252,6 +263,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
       plainBackgrounds: preferences.plainBackgrounds,
 
       fontFamily: FONT_FAMILIES[preferences.font],
+      fontFamilyFor: () => FONT_FAMILIES[preferences.font],
       type: (role, weight = 'regular') =>
         resolveTypeStyle(role, preferences.textSize, preferences.lineSpacing, weight),
       lineSpacingMultiplier: LINE_SPACING_MULTIPLIER[preferences.lineSpacing],
