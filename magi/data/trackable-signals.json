@@ -1,0 +1,322 @@
+[
+  {
+    "id": "cycle_length_days",
+    "category": "Hormones and Cycle",
+    "subcategory": "Menstrual Cycle",
+    "label": "Cycle Length (Days)",
+    "dataType": "Numeric",
+    "privacy": "High",
+    "clinicalStandard": "Yes (ICD-11)",
+    "mvp": "Critical"
+  },
+  {
+    "id": "hot_flush_frequency",
+    "category": "Hormones and Cycle",
+    "subcategory": "Menopause Symptoms",
+    "label": "Hot Flush Frequency",
+    "dataType": "Numeric",
+    "privacy": "High",
+    "clinicalStandard": "Partial (ICD-11)",
+    "mvp": "Critical"
+  },
+  {
+    "id": "task_initiation_difficulty",
+    "category": "Neurodivergence Specific",
+    "subcategory": "Executive Function",
+    "label": "Task Initiation Difficulty",
+    "dataType": "Scale (1-5)",
+    "privacy": "Medium",
+    "clinicalStandard": "No (Custom)",
+    "mvp": "Critical"
+  },
+  {
+    "id": "overwhelm_from_crowds",
+    "category": "Neurodivergence Specific",
+    "subcategory": "Sensory Overload",
+    "label": "Overwhelm from Crowds",
+    "dataType": "Scale (1-5)",
+    "privacy": "High",
+    "clinicalStandard": "No (Custom)",
+    "mvp": "Critical"
+  },
+  {
+    "id": "daily_mood_rating",
+    "category": "Mental Health",
+    "subcategory": "Mood",
+    "label": "Daily Mood Rating",
+    "dataType": "Scale (1-10)",
+    "privacy": "High",
+    "clinicalStandard": "Partial (ICD-11)",
+    "mvp": "Critical"
+  },
+  {
+    "id": "emotional_exhaustion_rating",
+    "category": "Mental Health",
+    "subcategory": "Burnout",
+    "label": "Emotional Exhaustion Rating",
+    "dataType": "Scale (1-10)",
+    "privacy": "High",
+    "clinicalStandard": "No (Custom)",
+    "mvp": "Critical"
+  },
+  {
+    "id": "diagnosed_conditions",
+    "category": "Physical Health",
+    "subcategory": "Chronic Conditions",
+    "label": "Diagnosed Conditions",
+    "dataType": "List",
+    "privacy": "High",
+    "clinicalStandard": "Yes (SNOMED)",
+    "mvp": "Critical"
+  },
+  {
+    "id": "pain_score_0_10",
+    "category": "Physical Health",
+    "subcategory": "Pain Levels",
+    "label": "Pain Score (0-10)",
+    "dataType": "Numeric",
+    "privacy": "High",
+    "clinicalStandard": "Partial (Pain Scales)",
+    "mvp": "Critical"
+  },
+  {
+    "id": "daily_fruit_veg_intake",
+    "category": "Lifestyle",
+    "subcategory": "Nutrition",
+    "label": "Daily Fruit/Veg Intake",
+    "dataType": "Numeric",
+    "privacy": "Low",
+    "clinicalStandard": "No",
+    "mvp": "Nice to Have"
+  },
+  {
+    "id": "daily_steps",
+    "category": "Lifestyle",
+    "subcategory": "Movement",
+    "label": "Daily Steps",
+    "dataType": "Numeric",
+    "privacy": "Low",
+    "clinicalStandard": "No",
+    "mvp": "Nice to Have"
+  },
+  {
+    "id": "sleep_duration_hours",
+    "category": "Sleep",
+    "subcategory": "Sleep Quality",
+    "label": "Sleep Duration (Hours)",
+    "dataType": "Numeric",
+    "privacy": "Medium",
+    "clinicalStandard": "Partial (Sleep Studies)",
+    "mvp": "Critical"
+  },
+  {
+    "id": "sleep_disruptions_per_night",
+    "category": "Sleep",
+    "subcategory": "Sleep Disruptions",
+    "label": "Sleep Disruptions per Night",
+    "dataType": "Numeric",
+    "privacy": "Medium",
+    "clinicalStandard": "Partial (Sleep Studies)",
+    "mvp": "Critical"
+  },
+  {
+    "id": "anger_spike_occurrence",
+    "category": "Emotions",
+    "subcategory": "Anger Spikes",
+    "label": "Anger Spike Occurrence",
+    "dataType": "Boolean (Yes/No)",
+    "privacy": "Medium",
+    "clinicalStandard": "No",
+    "mvp": "Nice to Have"
+  },
+  {
+    "id": "joy_burst_occurrence",
+    "category": "Emotions",
+    "subcategory": "Joy Bursts",
+    "label": "Joy Burst Occurrence",
+    "dataType": "Boolean (Yes/No)",
+    "privacy": "Medium",
+    "clinicalStandard": "No",
+    "mvp": "Nice to Have"
+  },
+  {
+    "id": "level_of_money_anxiety",
+    "category": "Financial Health",
+    "subcategory": "Money Anxiety",
+    "label": "Level of Money Anxiety",
+    "dataType": "Scale (1-5)",
+    "privacy": "High",
+    "clinicalStandard": "No",
+    "mvp": "Nice to Have"
+  },
+  {
+    "id": "progress_towards_goal",
+    "category": "Financial Health",
+    "subcategory": "Financial Independence Goals",
+    "label": "Progress Towards Goal (%)",
+    "dataType": "Percentage",
+    "privacy": "Medium",
+    "clinicalStandard": "No",
+    "mvp": "Future"
+  },
+  {
+    "id": "feeling_of_loneliness_1_5",
+    "category": "Social and Relationships",
+    "subcategory": "Loneliness",
+    "label": "Feeling of Loneliness (1-5)",
+    "dataType": "Scale (1-5)",
+    "privacy": "High",
+    "clinicalStandard": "No",
+    "mvp": "Nice to Have"
+  },
+  {
+    "id": "support_quality_1_5",
+    "category": "Social and Relationships",
+    "subcategory": "Support System",
+    "label": "Support Quality (1-5)",
+    "dataType": "Scale (1-5)",
+    "privacy": "Medium",
+    "clinicalStandard": "No",
+    "mvp": "Future"
+  },
+  {
+    "id": "sensitivity_to_loud_sounds",
+    "category": "Environmental Triggers",
+    "subcategory": "Noise Sensitivity",
+    "label": "Sensitivity to Loud Sounds",
+    "dataType": "Scale (1-5)",
+    "privacy": "Medium",
+    "clinicalStandard": "No",
+    "mvp": "Nice to Have"
+  },
+  {
+    "id": "sensitivity_to_bright_lights",
+    "category": "Environmental Triggers",
+    "subcategory": "Light Sensitivity",
+    "label": "Sensitivity to Bright Lights",
+    "dataType": "Scale (1-5)",
+    "privacy": "Medium",
+    "clinicalStandard": "No",
+    "mvp": "Nice to Have"
+  },
+  {
+    "id": "difficulty_making_decisions",
+    "category": "Cognitive Load",
+    "subcategory": "Decision Fatigue",
+    "label": "Difficulty Making Decisions",
+    "dataType": "Scale (1-5)",
+    "privacy": "High",
+    "clinicalStandard": "No",
+    "mvp": "Nice to Have"
+  },
+  {
+    "id": "stress_from_task_switching",
+    "category": "Cognitive Load",
+    "subcategory": "Task Switching Stress",
+    "label": "Stress from Task Switching",
+    "dataType": "Scale (1-5)",
+    "privacy": "High",
+    "clinicalStandard": "No",
+    "mvp": "Future"
+  },
+  {
+    "id": "daily_overwhelm_rating",
+    "category": "Custom MAGI Factors",
+    "subcategory": "Overwhelm Meter",
+    "label": "Daily Overwhelm Rating",
+    "dataType": "Scale (1-10)",
+    "privacy": "High",
+    "clinicalStandard": "No",
+    "mvp": "Critical"
+  },
+  {
+    "id": "nervous_system_load_self_rating",
+    "category": "Custom MAGI Factors",
+    "subcategory": "Nervous System Load",
+    "label": "Nervous System Load Self-Rating",
+    "dataType": "Scale (1-10)",
+    "privacy": "High",
+    "clinicalStandard": "No",
+    "mvp": "Critical"
+  },
+  {
+    "id": "working_memory_fluctuations",
+    "category": "Hormones & Neurodivergence",
+    "subcategory": "Cognitive Function",
+    "label": "Working Memory Fluctuations",
+    "dataType": "Scale (1-10)",
+    "privacy": "High",
+    "clinicalStandard": "No (Research-informed)",
+    "mvp": "High"
+  },
+  {
+    "id": "pmdd_symptom_severity",
+    "category": "Reproductive Health",
+    "subcategory": "PMDD",
+    "label": "PMDD Symptom Severity",
+    "dataType": "Scale (1-10)",
+    "privacy": "High",
+    "clinicalStandard": "Yes (ICD-10: N94.3)",
+    "mvp": "Critical"
+  },
+  {
+    "id": "menstrual_irregularity",
+    "category": "Reproductive Health",
+    "subcategory": "PCOS",
+    "label": "Menstrual Irregularity",
+    "dataType": "Binary/Date-based",
+    "privacy": "High",
+    "clinicalStandard": "Yes (ICD-10: E28.2)",
+    "mvp": "High"
+  },
+  {
+    "id": "pelvic_pain_frequency",
+    "category": "Reproductive Health",
+    "subcategory": "Endometriosis",
+    "label": "Pelvic Pain Frequency",
+    "dataType": "Scale (1-10)",
+    "privacy": "High",
+    "clinicalStandard": "Yes (ICD-10: N80)",
+    "mvp": "High"
+  },
+  {
+    "id": "age_group_classification_16_100",
+    "category": "Life Stages",
+    "subcategory": "Age",
+    "label": "Age Group Classification (16\u2013100)",
+    "dataType": "Categorical",
+    "privacy": "Low",
+    "clinicalStandard": "No (Custom)",
+    "mvp": "High"
+  },
+  {
+    "id": "workplace_stress_rating",
+    "category": "Social Determinants",
+    "subcategory": "Work & Employment",
+    "label": "Workplace Stress Rating",
+    "dataType": "Scale (1-10)",
+    "privacy": "Medium",
+    "clinicalStandard": "No (Custom)",
+    "mvp": "High"
+  },
+  {
+    "id": "current_pregnancy_status",
+    "category": "Reproductive Health",
+    "subcategory": "Pregnancy",
+    "label": "Current Pregnancy Status",
+    "dataType": "Binary",
+    "privacy": "High",
+    "clinicalStandard": "Yes (ICD-10: Z34-Z39)",
+    "mvp": "High"
+  },
+  {
+    "id": "postpartum_mood_rating",
+    "category": "Reproductive Health",
+    "subcategory": "Postpartum",
+    "label": "Postpartum Mood Rating",
+    "dataType": "Scale (1-10)",
+    "privacy": "High",
+    "clinicalStandard": "Yes (ICD-10: F53)",
+    "mvp": "High"
+  }
+]

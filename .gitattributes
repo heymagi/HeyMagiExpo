@@ -1,0 +1,10 @@
+# Normalise line endings in the repo whatever the committing machine uses: developed on
+# Windows, deployed to Deno on Linux.
+* text=auto eol=lf
+
+*.png binary
+*.webp binary
+*.svg text
+*.ttf binary
+*.xlsx binary
+*.tgz binary

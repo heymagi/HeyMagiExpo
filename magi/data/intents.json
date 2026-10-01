@@ -1,0 +1,802 @@
+[
+  {
+    "id": "i_can_t_concentrate_on_anything_today",
+    "phrase": "I can't concentrate on anything today",
+    "category": "focus_attention",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Mindfulness-Observe",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "my_mind_is_racing_with_too_many_thoughts",
+    "phrase": "My mind is racing with too many thoughts",
+    "category": "focus_attention",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Mindfulness-Observe",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "i_keep_getting_distracted_by_every_little_so",
+    "phrase": "I keep getting distracted by every little sound",
+    "category": "focus_attention",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Mindfulness-Participate",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "i_m_hyperfocusing",
+    "phrase": "I'm hyperfocusing",
+    "category": "focus_attention",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Mindfulness-Describe",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "my_attention_jumps_around_constantly",
+    "phrase": "My attention jumps around constantly",
+    "category": "focus_attention",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Mindfulness-Observe",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "i_can_t_follow_conversations_in_groups",
+    "phrase": "I can't follow conversations in groups",
+    "category": "focus_attention",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Mindfulness-Participate",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "reading_feels_impossible_right_now",
+    "phrase": "Reading feels impossible right now",
+    "category": "focus_attention",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Mindfulness-Observe",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "i_lose_track_of_what_i_m_doing_mid_task",
+    "phrase": "I lose track of what I'm doing mid-task",
+    "category": "focus_attention",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Mindfulness-Describe",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "my_brain_feels_foggy",
+    "phrase": "My brain feels foggy",
+    "category": "focus_attention",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Mindfulness-Observe",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "i_can_t_filter_out_background_noise",
+    "phrase": "I can't filter out background noise",
+    "category": "focus_attention",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Distress_Tolerance-ACCEPTS",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "i_m_feeling_overwhelmed_by_my_emotions",
+    "phrase": "I'm feeling overwhelmed by my emotions",
+    "category": "emotional_regulation",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Emotion_Regulation-PLEASE",
+    "tone": "validating_supportive",
+    "somatic": true
+  },
+  {
+    "id": "my_emotions_change_so_quickly",
+    "phrase": "My emotions change so quickly",
+    "category": "emotional_regulation",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Emotion_Regulation-Check_Facts",
+    "tone": "validating_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_m_so_angry",
+    "phrase": "I'm so angry",
+    "category": "emotional_regulation",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Emotion_Regulation-Check_Facts",
+    "tone": "validating_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_feel_like_i_m_going_to_explode_emotionally",
+    "phrase": "I feel like I'm going to explode emotionally",
+    "category": "emotional_regulation",
+    "needIntensity": 4,
+    "sourceCrisisLevel": "Crisis",
+    "dbtSkill": "Distress_Tolerance-TIPP",
+    "tone": "crisis_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_can_t_stop_crying",
+    "phrase": "I can't stop crying",
+    "category": "emotional_regulation",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Distress_Tolerance-ACCEPTS",
+    "tone": "validating_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_feel_numb",
+    "phrase": "I feel numb",
+    "category": "emotional_regulation",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Mindfulness-Observe",
+    "tone": "encouraging_educational",
+    "somatic": true
+  },
+  {
+    "id": "my_emotions_feel_too_big_for_my_body",
+    "phrase": "My emotions feel too big for my body",
+    "category": "emotional_regulation",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Distress_Tolerance-TIPP",
+    "tone": "validating_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_m_having_an_emotional_flashback",
+    "phrase": "I'm having an emotional flashback",
+    "category": "emotional_regulation",
+    "needIntensity": 4,
+    "sourceCrisisLevel": "Crisis",
+    "dbtSkill": "Distress_Tolerance-Radical_Acceptance",
+    "tone": "crisis_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_feel_ashamed_of_my_emotional_reactions",
+    "phrase": "I feel ashamed of my emotional reactions",
+    "category": "emotional_regulation",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Emotion_Regulation-Check_Facts",
+    "tone": "encouraging_educational",
+    "somatic": true
+  },
+  {
+    "id": "i_m_stuck_in_a_negative_emotion_spiral",
+    "phrase": "I'm stuck in a negative emotion spiral",
+    "category": "emotional_regulation",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Emotion_Regulation-Opposite_Action",
+    "tone": "validating_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_m_having_a_panic_attack",
+    "phrase": "I'm having a panic attack",
+    "category": "crisis_support",
+    "needIntensity": 4,
+    "sourceCrisisLevel": "Crisis",
+    "dbtSkill": "Distress_Tolerance-TIPP",
+    "tone": "crisis_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_feel_like_i_can_t_cope_anymore",
+    "phrase": "I feel like I can't cope anymore",
+    "category": "crisis_support",
+    "needIntensity": 4,
+    "sourceCrisisLevel": "Crisis",
+    "dbtSkill": "Distress_Tolerance-Radical_Acceptance",
+    "tone": "crisis_supportive",
+    "somatic": true
+  },
+  {
+    "id": "everything_feels_too_much_right_now",
+    "phrase": "Everything feels too much right now",
+    "category": "crisis_support",
+    "needIntensity": 4,
+    "sourceCrisisLevel": "Crisis",
+    "dbtSkill": "Distress_Tolerance-ACCEPTS",
+    "tone": "crisis_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_m_having_thoughts_of_self_harm",
+    "phrase": "I'm having thoughts of self-harm",
+    "category": "crisis_support",
+    "needIntensity": 5,
+    "sourceCrisisLevel": "Emergency",
+    "dbtSkill": "Distress_Tolerance-TIPP",
+    "tone": "crisis_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_m_in_complete_shutdown_mode",
+    "phrase": "I'm in complete shutdown mode",
+    "category": "crisis_support",
+    "needIntensity": 4,
+    "sourceCrisisLevel": "Crisis",
+    "dbtSkill": "Distress_Tolerance-Radical_Acceptance",
+    "tone": "crisis_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_want_to_run_away_from_everything",
+    "phrase": "I want to run away from everything",
+    "category": "crisis_support",
+    "needIntensity": 4,
+    "sourceCrisisLevel": "Crisis",
+    "dbtSkill": "Distress_Tolerance-ACCEPTS",
+    "tone": "crisis_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_m_having_a_complete_meltdown",
+    "phrase": "I'm having a complete meltdown",
+    "category": "crisis_support",
+    "needIntensity": 4,
+    "sourceCrisisLevel": "Crisis",
+    "dbtSkill": "Distress_Tolerance-TIPP",
+    "tone": "crisis_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_feel_like_i_m_drowning_in_overwhelm",
+    "phrase": "I feel like I'm drowning in overwhelm",
+    "category": "crisis_support",
+    "needIntensity": 4,
+    "sourceCrisisLevel": "Crisis",
+    "dbtSkill": "Distress_Tolerance-ACCEPTS",
+    "tone": "crisis_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_m_having_suicidal_thoughts",
+    "phrase": "I'm having suicidal thoughts",
+    "category": "crisis_support",
+    "needIntensity": 5,
+    "sourceCrisisLevel": "Emergency",
+    "dbtSkill": "Distress_Tolerance-TIPP",
+    "tone": "crisis_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_can_t_breathe_properly_from_anxiety",
+    "phrase": "I can't breathe properly from anxiety",
+    "category": "crisis_support",
+    "needIntensity": 4,
+    "sourceCrisisLevel": "Crisis",
+    "dbtSkill": "Distress_Tolerance-TIPP",
+    "tone": "crisis_supportive",
+    "somatic": true
+  },
+  {
+    "id": "my_period_is_making_everything_harder",
+    "phrase": "My period is making everything harder",
+    "category": "hormone_impact",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Emotion_Regulation-PLEASE",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "i_feel_crazy_during_pms",
+    "phrase": "I feel crazy during PMS",
+    "category": "hormone_impact",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Emotion_Regulation-Check_Facts",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "my_adhd_symptoms_are_worse_during_my_cycle",
+    "phrase": "My ADHD symptoms are worse during my cycle",
+    "category": "hormone_impact",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Mindfulness-Observe",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "my_medications_don_t_work_during_my_period",
+    "phrase": "My medications don't work during my period",
+    "category": "hormone_impact",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Distress_Tolerance-ACCEPTS",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "i_have_intense_mood_swings_before_my_period",
+    "phrase": "I have intense mood swings before my period",
+    "category": "hormone_impact",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Emotion_Regulation-Check_Facts",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "my_hormones_make_me_feel_out_of_control",
+    "phrase": "My hormones make me feel out of control",
+    "category": "hormone_impact",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Emotion_Regulation-PLEASE",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "i_have_pmdd",
+    "phrase": "I have PMDD",
+    "category": "hormone_impact",
+    "needIntensity": 4,
+    "sourceCrisisLevel": "Crisis",
+    "dbtSkill": "Distress_Tolerance-Radical_Acceptance",
+    "tone": "crisis_supportive",
+    "somatic": false
+  },
+  {
+    "id": "ovulation_makes_me_hypersensitive",
+    "phrase": "Ovulation makes me hypersensitive",
+    "category": "hormone_impact",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Distress_Tolerance-ACCEPTS",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "perimenopause_is_affecting_my_brain_fog",
+    "phrase": "Perimenopause is affecting my brain fog",
+    "category": "hormone_impact",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Mindfulness-Describe",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "my_cycle_makes_my_autism_symptoms_worse",
+    "phrase": "My cycle makes my autism symptoms worse",
+    "category": "hormone_impact",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Distress_Tolerance-ACCEPTS",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "i_don_t_know_how_to_ask_for_help",
+    "phrase": "I don't know how to ask for help",
+    "category": "social_interpersonal",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Interpersonal-DEAR_MAN",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "i_feel_like_nobody_understands_me",
+    "phrase": "I feel like nobody understands me",
+    "category": "social_interpersonal",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Interpersonal-GIVE",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "i_m_struggling_in_my_relationship",
+    "phrase": "I'm struggling in my relationship",
+    "category": "social_interpersonal",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Interpersonal-DEAR_MAN",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "i_need_to_set_boundaries_but_don_t_know_how",
+    "phrase": "I need to set boundaries but don't know how",
+    "category": "social_interpersonal",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Interpersonal-FAST",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "i_m_having_conflict_with_someone_important",
+    "phrase": "I'm having conflict with someone important",
+    "category": "social_interpersonal",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Interpersonal-GIVE",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "i_feel_rejected",
+    "phrase": "I feel rejected",
+    "category": "social_interpersonal",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Distress_Tolerance-Radical_Acceptance",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "i_m_struggling_to_communicate_my_needs",
+    "phrase": "I'm struggling to communicate my needs",
+    "category": "social_interpersonal",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Interpersonal-DEAR_MAN",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "people_don_t_believe_i_m_struggling",
+    "phrase": "People don't believe I'm struggling",
+    "category": "social_interpersonal",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Interpersonal-FAST",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "i_m_afraid_of_being_abandoned",
+    "phrase": "I'm afraid of being abandoned",
+    "category": "social_interpersonal",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Distress_Tolerance-Radical_Acceptance",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "i_can_t_read_social_cues_properly",
+    "phrase": "I can't read social cues properly",
+    "category": "social_interpersonal",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Mindfulness-Observe",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "everything_is_too_loud",
+    "phrase": "Everything is too loud",
+    "category": "sensory_overload",
+    "needIntensity": 4,
+    "sourceCrisisLevel": "Crisis",
+    "dbtSkill": "Distress_Tolerance-TIPP",
+    "tone": "crisis_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_need_to_calm_my_body_down",
+    "phrase": "I need to calm my body down",
+    "category": "sensory_overload",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Distress_Tolerance-TIPP",
+    "tone": "validating_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_m_having_a_sensory_overload",
+    "phrase": "I'm having a sensory overload",
+    "category": "sensory_overload",
+    "needIntensity": 4,
+    "sourceCrisisLevel": "Crisis",
+    "dbtSkill": "Distress_Tolerance-ACCEPTS",
+    "tone": "crisis_supportive",
+    "somatic": true
+  },
+  {
+    "id": "my_body_feels_disconnected",
+    "phrase": "My body feels disconnected",
+    "category": "sensory_overload",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Mindfulness-Observe",
+    "tone": "encouraging_educational",
+    "somatic": true
+  },
+  {
+    "id": "i_can_t_handle_any_more_stimulation",
+    "phrase": "I can't handle any more stimulation",
+    "category": "sensory_overload",
+    "needIntensity": 4,
+    "sourceCrisisLevel": "Crisis",
+    "dbtSkill": "Distress_Tolerance-ACCEPTS",
+    "tone": "crisis_supportive",
+    "somatic": true
+  },
+  {
+    "id": "textures_are_making_me_want_to_scream",
+    "phrase": "Textures are making me want to scream",
+    "category": "sensory_overload",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Distress_Tolerance-TIPP",
+    "tone": "validating_supportive",
+    "somatic": true
+  },
+  {
+    "id": "the_lights_are_hurting_my_eyes",
+    "phrase": "The lights are hurting my eyes",
+    "category": "sensory_overload",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Distress_Tolerance-ACCEPTS",
+    "tone": "encouraging_educational",
+    "somatic": true
+  },
+  {
+    "id": "i_need_help_grounding_myself",
+    "phrase": "I need help grounding myself",
+    "category": "sensory_overload",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Mindfulness-Participate",
+    "tone": "encouraging_educational",
+    "somatic": true
+  },
+  {
+    "id": "sounds_are_physically_painful_right_now",
+    "phrase": "Sounds are physically painful right now",
+    "category": "sensory_overload",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Distress_Tolerance-TIPP",
+    "tone": "validating_supportive",
+    "somatic": true
+  },
+  {
+    "id": "i_m_overwhelmed_by_smells",
+    "phrase": "I'm overwhelmed by smells",
+    "category": "sensory_overload",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Distress_Tolerance-ACCEPTS",
+    "tone": "encouraging_educational",
+    "somatic": true
+  },
+  {
+    "id": "i_can_t_make_decisions_today",
+    "phrase": "I can't make decisions today",
+    "category": "executive_function",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Distress_Tolerance-Radical_Acceptance",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "i_m_procrastinating_on_important_tasks",
+    "phrase": "I'm procrastinating on important tasks",
+    "category": "executive_function",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Emotion_Regulation-Opposite_Action",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "i_feel_paralyzed",
+    "phrase": "I feel paralyzed",
+    "category": "executive_function",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Distress_Tolerance-ACCEPTS",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "i_can_t_organize_my_thoughts",
+    "phrase": "I can't organize my thoughts",
+    "category": "executive_function",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Mindfulness-Describe",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "time_management_feels_impossible",
+    "phrase": "Time management feels impossible",
+    "category": "executive_function",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Distress_Tolerance-ACCEPTS",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "i_need_accommodations_at_work",
+    "phrase": "I need accommodations at work",
+    "category": "work_school",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Interpersonal-DEAR_MAN",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "i_can_t_keep_up_with_coursework",
+    "phrase": "I can't keep up with coursework",
+    "category": "work_school",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Distress_Tolerance-ACCEPTS",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "my_boss_doesn_t_understand_my_needs",
+    "phrase": "My boss doesn't understand my needs",
+    "category": "work_school",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Interpersonal-FAST",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "i_m_struggling_with_deadlines",
+    "phrase": "I'm struggling with deadlines",
+    "category": "work_school",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Emotion_Regulation-PLEASE",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "meetings_are_overwhelming_for_me",
+    "phrase": "Meetings are overwhelming for me",
+    "category": "work_school",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Distress_Tolerance-ACCEPTS",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "i_feel_like_i_m_failing_at_everything",
+    "phrase": "I feel like I'm failing at everything",
+    "category": "identity_masking",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Emotion_Regulation-Check_Facts",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "i_don_t_know_who_i_am_without_my_mask",
+    "phrase": "I don't know who I am without my mask",
+    "category": "identity_masking",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Mindfulness-Observe",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "i_m_tired_of_pretending_i_m_okay",
+    "phrase": "I'm tired of pretending I'm okay",
+    "category": "identity_masking",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Interpersonal-FAST",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "i_m_exhausted_from_masking_all_day",
+    "phrase": "I'm exhausted from masking all day",
+    "category": "identity_masking",
+    "needIntensity": 3,
+    "sourceCrisisLevel": "High",
+    "dbtSkill": "Distress_Tolerance-ACCEPTS",
+    "tone": "validating_supportive",
+    "somatic": false
+  },
+  {
+    "id": "i_want_to_stop_hiding_my_struggles",
+    "phrase": "I want to stop hiding my struggles",
+    "category": "identity_masking",
+    "needIntensity": 2,
+    "sourceCrisisLevel": "Medium",
+    "dbtSkill": "Interpersonal-DEAR_MAN",
+    "tone": "encouraging_educational",
+    "somatic": false
+  },
+  {
+    "id": "i_accomplished_something_important_today",
+    "phrase": "I accomplished something important today",
+    "category": "success_positive",
+    "needIntensity": 1,
+    "sourceCrisisLevel": "Low",
+    "dbtSkill": "Mindfulness-Participate",
+    "tone": "positive_reinforcing",
+    "somatic": false
+  },
+  {
+    "id": "i_successfully_used_a_dbt_skill",
+    "phrase": "I successfully used a DBT skill",
+    "category": "success_positive",
+    "needIntensity": 1,
+    "sourceCrisisLevel": "Low",
+    "dbtSkill": "Mindfulness-Describe",
+    "tone": "positive_reinforcing",
+    "somatic": false
+  },
+  {
+    "id": "i_m_feeling_proud_of_my_progress",
+    "phrase": "I'm feeling proud of my progress",
+    "category": "success_positive",
+    "needIntensity": 1,
+    "sourceCrisisLevel": "Low",
+    "dbtSkill": "Mindfulness-Observe",
+    "tone": "positive_reinforcing",
+    "somatic": false
+  },
+  {
+    "id": "i_managed_a_difficult_situation_well",
+    "phrase": "I managed a difficult situation well",
+    "category": "success_positive",
+    "needIntensity": 1,
+    "sourceCrisisLevel": "Low",
+    "dbtSkill": "Emotion_Regulation-Check_Facts",
+    "tone": "positive_reinforcing",
+    "somatic": false
+  },
+  {
+    "id": "i_advocated_for_myself_successfully",
+    "phrase": "I advocated for myself successfully",
+    "category": "success_positive",
+    "needIntensity": 1,
+    "sourceCrisisLevel": "Low",
+    "dbtSkill": "Interpersonal-FAST",
+    "tone": "positive_reinforcing",
+    "somatic": false
+  }
+]

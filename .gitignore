@@ -1,0 +1,50 @@
+# dependencies
+node_modules/
+
+# expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macos
+.DS_Store
+*.pem
+
+# local env files -- the only copy of the server-side keys lives here and must never
+# be committed. `.env.example` documents the names and is tracked.
+.env
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# dev-server, CLI and tooling output
+*.log
+*.err
+
+# local build artefacts and source spreadsheets
+magi-src.tgz
+*.xlsx
+
+# supabase CLI local state
+supabase/.temp/
+
+# python
+tools/__pycache__/
